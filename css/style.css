@@ -391,6 +391,38 @@ body {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 43.75rem) {
+  .grid-section {
+    grid-template-areas:
+      "area-one area-two area-two"
+      "area-three area-three area-four"
+      "area-three area-three area-five";
+    gap: 0.69rem;
+
+    padding: 0 2.5rem;
+    margin-bottom: 7.44rem;
+  }
+
+  .grid-section__content--white {
+    max-width: 17.44rem;
+
+    gap: 1.56rem;
+
+    padding: 4.25rem 3.38rem 4rem 0;
+    margin-bottom: 0;
+  }
+
+  .grid-section__content--black {
+    max-width: 100%;
+
+    padding: 5.31rem 1.75rem 5.31rem 1.81rem;
+  }
+
+  .grid-section__picture {
+    margin-bottom: 0;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
