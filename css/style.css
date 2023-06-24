@@ -148,17 +148,18 @@ body {
 /* HEADING + TEXT */
 /* *********************** */
 
-.intro-section__heading {
+.intro-section__heading,
+.grid-section__heading {
   font-family: var(--Font-Family-One);
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .intro-section__text,
+.grid-section__text,
 .footer__text {
   font-family: var(--Font-Family-Two);
   font-weight: 300;
-  color: var(--Tertiary-Color);
 }
 
 /* *********************** */
@@ -311,6 +312,83 @@ body {
     font-size: 1.38rem;
     line-height: 1.45;
   }
+}
+
+/* *********************** */
+/* INFO - SECTION */
+/* *********************** */
+
+.grid-section {
+  max-width: 74.44rem;
+  display: grid;
+  grid-template-areas:
+    "area-two"
+    "area-one"
+    "area-three"
+    "area-four"
+    "area-five";
+
+  padding: 0 1rem;
+  margin: 0 auto 7.5rem auto;
+}
+
+.grid-section__content {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+
+  padding: 3rem 1.5rem 2.94rem 1.5rem;
+}
+
+.grid-section__content--white {
+  grid-area: area-one;
+  gap: 1.31rem;
+
+  color: var(--Secondary-Color);
+
+  margin-bottom: 2rem;
+
+  background: var(--Quaternary-Color);
+}
+
+.grid-section__content--black {
+  grid-area: area-five;
+  gap: 1.5rem;
+
+  color: var(--Quaternary-Color);
+
+  background: var(--Secondary-Color);
+}
+
+.grid-section__heading {
+  font-size: 3.13rem;
+  line-height: 0.9;
+}
+
+.grid-section__text {
+  font-size: 1.13rem;
+  line-height: 1.56;
+}
+
+.grid-section__picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-section__picture-one {
+  grid-area: area-two;
+  margin-bottom: 1.56rem;
+}
+
+.grid-section__picture-two {
+  grid-area: area-three;
+  margin-bottom: 0.94rem;
+}
+
+.grid-section__picture-three {
+  grid-area: area-four;
+  margin-bottom: 1rem;
 }
 
 /* *********************** */
