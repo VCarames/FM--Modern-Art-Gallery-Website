@@ -192,3 +192,19 @@ body {
 .footer__social-icon--black {
   fill: var(--Secondary-Color);
 }
+
+@media (min-width: 700px) {
+  .footer {
+    padding: 3.5rem 2.5rem;
+  }
+
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer__text {
+    max-width: 27ch;
+    margin-right: 4.19rem;
+  }
+}
