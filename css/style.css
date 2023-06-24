@@ -92,3 +92,17 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* *********************** */
+/* VARIABLES */
+/* *********************** */
+
+:root {
+  --Font-Family-One: "Big Shoulders Display", cursive;
+  --Font-Family-Two: "Outfit", sans-serif;
+
+  --Primary-Color: hsl(24, 56%, 63%);
+  --Secondary-Color: hsl(0, 0%, 8%);
+  --Tertiary-Color: hsl(0, 0%, 27%);
+  --Quaternary-Color: hsl(0, 0%, 100%);
+}
