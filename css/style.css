@@ -145,6 +145,72 @@ body {
 }
 
 /* *********************** */
+/* HEADING + TEXT */
+/* *********************** */
+
+.intro-section__heading {
+  font-family: var(--Font-Family-One);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.intro-section__text,
+.footer__text {
+  font-family: var(--Font-Family-Two);
+  font-weight: 300;
+  color: var(--Tertiary-Color);
+}
+
+/* *********************** */
+/* INTRO - SECTION */
+/* *********************** */
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto 7.5rem auto;
+}
+
+.intro-section__picture {
+  margin-bottom: 2rem;
+}
+
+.intro-section__picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-section__content,
+.intro-section__content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 0 1rem;
+}
+
+.intro-section__content-container {
+  padding: 0;
+}
+
+.intro-section__heading {
+  max-width: 28.5rem;
+
+  font-size: 3.75rem;
+  line-height: 0.92;
+  color: var(--Secondary-Color);
+}
+
+.intro-section__text {
+  font-size: 1.13rem;
+  line-height: 1.56;
+}
+
+/* *********************** */
 /* FOOTER */
 /* *********************** */
 
