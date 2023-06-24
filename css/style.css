@@ -143,3 +143,52 @@ body {
 
   background: var(--Primary-Color);
 }
+
+/* *********************** */
+/* FOOTER */
+/* *********************** */
+
+.footer {
+  font-family: var(--Font-Family-Two);
+  background: var(--Secondary-Color);
+  padding: 3rem 2rem;
+}
+
+.footer--orange {
+  background: var(--Primary-Color);
+}
+
+.footer__content {
+  max-width: 69.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.38rem;
+
+  margin: 0 auto;
+}
+
+.footer__text {
+  font-size: 1rem;
+  line-height: 1.63;
+
+  color: var(--Quaternary-Color);
+}
+
+.footer__text--black {
+  color: var(--Secondary-Color);
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer__social-icon {
+  fill: var(--Quaternary-Color);
+}
+
+.footer__social-icon--black {
+  fill: var(--Secondary-Color);
+}
