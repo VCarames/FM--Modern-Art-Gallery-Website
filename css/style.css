@@ -423,6 +423,36 @@ body {
   }
 }
 
+@media (min-width: 1100px) {
+  .grid-section {
+    gap: 1.88rem;
+
+    margin-bottom: 11.06rem;
+  }
+
+  .grid-section__content--white {
+    max-width: 27.81rem;
+
+    gap: 32px;
+
+    padding: 3.75rem 6.5rem 4rem 0;
+  }
+
+  .grid-section__content--black {
+    padding: 4.31rem 2.44rem 4.06rem 2.94rem;
+  }
+
+  .grid-section__heading {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .grid-section__text {
+    font-size: 1.38rem;
+    line-height: 1.45;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
