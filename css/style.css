@@ -491,6 +491,12 @@ body {
   }
 }
 
+@media (min-width: 1180px) {
+  .map-section__btn {
+    left: 9.75rem;
+  }
+}
+
 /* *********************** */
 /* LOCATION - SECTION */
 /* *********************** */
