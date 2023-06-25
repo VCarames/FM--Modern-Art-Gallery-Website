@@ -557,6 +557,41 @@ body {
   }
 }
 
+@media (min-width: 1180px) {
+  .location-section {
+    padding: 6.5rem 10.31rem 8rem 10.31rem;
+  }
+
+  .location-section__content {
+    gap: 20.38rem;
+  }
+
+  .location-section__heading {
+    font-size: 4.38rem;
+    line-height: 1;
+  }
+
+  .location-section__address {
+    font-size: 1.38rem;
+    line-height: 1.45;
+  }
+
+  .location-section__address span {
+    font-size: 2.25rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .location-section__address P:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .location-section__text {
+    font-size: 1.38rem;
+    line-height: 1.45;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
