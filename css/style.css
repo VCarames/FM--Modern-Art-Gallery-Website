@@ -149,7 +149,9 @@ body {
 /* *********************** */
 
 .intro-section__heading,
-.grid-section__heading {
+.grid-section__heading,
+.location-section__heading,
+.location-section__address span {
   font-family: var(--Font-Family-One);
   font-weight: 900;
   text-transform: uppercase;
@@ -157,6 +159,8 @@ body {
 
 .intro-section__text,
 .grid-section__text,
+.location-section__text,
+.location-section__address p,
 .footer__text {
   font-family: var(--Font-Family-Two);
   font-weight: 300;
@@ -486,6 +490,58 @@ body {
     left: 6.63rem;
   }
 }
+
+/* *********************** */
+/* LOCATION - SECTION */
+/* *********************** */
+
+.location-section {
+  color: var(--Quaternary-Color);
+
+  background: var(--Secondary-Color);
+
+  padding: 3rem 1rem 3.5rem 1rem;
+}
+
+.location-section__content {
+  max-width: 69.38rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  margin: 0 auto;
+}
+
+.location-section__heading {
+  font-size: 3.13rem;
+  line-height: 0.9;
+}
+
+.location-section__address {
+  display: grid;
+
+  font-style: normal;
+  font-size: 1.13rem;
+  line-height: 1.56;
+}
+
+.location-section__address span {
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--Primary-Color);
+
+  margin-bottom: 1.25rem;
+}
+
+.location-section__address P {
+  margin-bottom: 1.25rem;
+}
+
+.location-section__text {
+  font-size: 1.13rem;
+  line-height: 1.56;
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
