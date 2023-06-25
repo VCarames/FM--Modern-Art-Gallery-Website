@@ -454,6 +454,30 @@ body {
 }
 
 /* *********************** */
+/* MAP - SECTION */
+/* *********************** */
+
+#map {
+  min-height: 34.38rem;
+  z-index: 0;
+}
+
+.leaflet-control {
+  display: none;
+}
+
+.map-section {
+  position: relative;
+}
+
+.map-section__btn {
+  position: absolute;
+  z-index: 1;
+
+  top: 0;
+}
+
+/* *********************** */
 /* FOOTER */
 /* *********************** */
 
