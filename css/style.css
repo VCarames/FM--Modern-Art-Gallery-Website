@@ -477,6 +477,15 @@ body {
   top: 0;
 }
 
+@media (min-width: 700px) {
+  #map {
+    min-height: 37.5rem;
+  }
+
+  .map-section__btn {
+    left: 6.63rem;
+  }
+}
 /* *********************** */
 /* FOOTER */
 /* *********************** */
